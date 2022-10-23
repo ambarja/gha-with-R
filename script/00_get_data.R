@@ -1,5 +1,5 @@
-library(vroom)
-library(tidyverse)
+install.packages("vroom")
+install.packages("tidyverse")
 
 download.file(
   url = "https://drive.minsa.gob.pe/s/XJoxGPW2wBmkSAD/download",
