@@ -1,6 +1,7 @@
 install.packages("vroom")
 install.packages("tidyverse")
-
+library(vroom)
+library(tidyverse)
 download.file(
   url = "https://drive.minsa.gob.pe/s/XJoxGPW2wBmkSAD/download",
   destfile = "data/defunciones.csv",
