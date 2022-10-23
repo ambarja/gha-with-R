@@ -1,6 +1,4 @@
-on:
-  workflow_dispatch:
-     branches: [main]
+on: [push]
 
 name: run-r-script
 
